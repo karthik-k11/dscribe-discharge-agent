@@ -1,0 +1,14 @@
+# Isolate Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Prevent API keys and local configuration from leaking
+.env
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore the heavy data files if you don't want to push them
+patient_2.txt
