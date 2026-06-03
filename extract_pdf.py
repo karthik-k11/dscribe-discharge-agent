@@ -87,8 +87,20 @@ def run_multimodal_extraction(pdf_filename, output_txt_filename):
     if not success:
         print("Pipeline failed: All available cloud model paths are currently overloaded. Please run again in a moment.")
 
+# Helper function so main.py can import it smoothly
+def extract_patient_pdf(pdf_path):
+    base_name = os.path.splitext(os.path.basename(pdf_path))[0]
+    output_txt = f"{base_name}.txt"
+    run_multimodal_extraction(pdf_path, output_txt)
+
 if __name__ == "__main__":
-    pdf_file = "patient 2 (1).pdf"
-    output_file = "patient_2.txt"
+    import sys
+    
+    # Capture the filename passed from the terminal command, or use a default
+    pdf_file = sys.argv[1] if len(sys.argv) > 1 else "patient_2.pdf"
+    
+    # Generate matching output text name dynamically
+    base_name = os.path.splitext(os.path.basename(pdf_file))[0]
+    output_file = f"{base_name}.txt"
     
     run_multimodal_extraction(pdf_file, output_file)
