@@ -4,6 +4,24 @@ This repository contains an institutional-grade, deterministic agentic workflow 
 
 ---
 
+## Submission Deliverables
+
+### 1. Working Video Demo
+* **Loom Video Walkthrough:** [Watch the Live Systems Demo & Code Walkthrough](https://www.loom.com/share/114775ffbccd4ed39f684f777003f89c)
+
+### 2. Patient Artifacts & Execution Traces
+All generated discharge drafts and underlying step-by-step reasoning audit logs are stored natively within the `traces/` directory of this repository.
+
+#### Patient 1
+* **Clinical Draft Summary:** [patient_1_discharge_summary.md](./traces/patient_1_discharge_summary.md)
+* **Execution Audit Log:** [patient_1_execution_trace.txt](./traces/patient_1_execution_trace.txt)
+
+#### Patient 2
+* **Clinical Draft Summary:** [patient_2_discharge_summary.md](./traces/patient_2_discharge_summary.md)
+* **Execution Audit Log:** [patient_2_execution_trace.txt](./traces/patient_2_execution_trace.txt)
+
+---
+
 ## 1. Agent Loop Design
 
 The core of this architecture is a custom ReAct (Reasoning and Action) execution loop designed to provide complete control over the model's trajectory under uncertainty. High-level frameworks (such as CrewAI or LangGraph) were explicitly avoided to ensure that every transition state, tool execution, and fallback path is fully deterministic and auditable.
