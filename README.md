@@ -26,7 +26,19 @@ All generated discharge drafts and underlying step-by-step reasoning audit logs 
 
 ![Project Architecture](Describe_Discharge_Agent.png)
 
+---
+## Core Technical Highlights
 
+This project implements a production-grade, single-agent system engineered for clinical safety and absolute data fidelity. Instead of using high-level multi-agent frameworks, the entire architecture was built from scratch to maintain deterministic control over execution state transitions and error paths.
+
+### Key Engineering Features
+
+* **From-Scratch ReAct Orchestration:** Built a custom Reasoning and Action (ReAct) loop directly in native Python. This eliminates framework overhead and ensures 100% auditability for every step the agent takes.
+* **Zero-Fabrication Guardrails:** Enforced strict clinical safety boundaries via system prompts. The agent is strictly forbidden from guessing missing information; if data (like insulin doses or patient names) is missing, it explicitly logs `[NOT PROVIDED]` and triggers a clinician escalation tool.
+* **Layout-Aware PDF Ingestion:** Implemented an ingestion layer that converts messy PDF notes and laboratory tables into clean Markdown arrays while converting unreadable handwriting into safe semantic tokens.
+* **Infrastructure Fault Tolerance:** Engineered a resilient API wrapper that intercepts `503 Service Unavailable` and `429 Resource Exhausted` rate-limiting exceptions, triggering automated backoff and cooldown cycles without losing agent state.
+* **Production-Ready Output Post-Processing:** Programmatically slices away the agent's internal thought monologues from the final file, delivering a beautifully rendered Markdown asset starting directly at the standard medical headers.
+* **Strict Execution Controls:** Enforced a hard 5-step iteration cap on the core engine to fully prevent infinite runtime loops and runaway token consumption.
 
 ---
 
