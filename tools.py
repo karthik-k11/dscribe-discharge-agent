@@ -1,4 +1,3 @@
-# tools.py
 import json
 
 def tool_drug_interaction_lookup(medication_list_str):
