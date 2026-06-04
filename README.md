@@ -2,6 +2,23 @@
 
 This repository contains an institutional-grade, deterministic agentic workflow engineered to read unstructured, messy multi-page patient source records and compile structured, clinically safe discharge summary drafts. Built entirely from scratch without the overhead of opaque multi-agent frameworks, this system prioritizes absolute clinical safety, zero-fabrication guarantees, strict observability, and resilient exception handling.
 
+
+## Submission Artifacts & Deliverables
+
+### 1. Working Video Demo
+* **Loom Video Walkthrough:** [Watch the Live Systems Demo & Code Walkthrough](https://www.loom.com/share/114775ffbccd4ed39f684f777003f89c)
+
+### 2. Patient Artifacts & Execution Traces
+All generated discharge drafts and underlying step-by-step reasoning audit logs are stored natively within the `traces/` directory of this repository. You can access the individual outputs using the links below:
+
+#### Patient 1
+* **Clinical Draft Summary:** [patient_1_discharge_summary.md](./traces/patient_1_discharge_summary.md)
+* **Execution Audit Log:** [patient_1_execution_trace.txt](./traces/patient_1_execution_trace.txt)
+
+#### Patient 2 (Data provided by the company)
+* **Clinical Draft Summary:** [patient_2_discharge_summary.md](./traces/patient_2_discharge_summary.md)
+* **Execution Audit Log:** [patient_2_execution_trace.txt](./traces/patient_2_execution_trace.txt)
+
 ---
 
 ## 1. Agent Loop Design
