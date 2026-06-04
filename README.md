@@ -22,6 +22,14 @@ All generated discharge drafts and underlying step-by-step reasoning audit logs 
 
 ---
 
+---
+
+![Project Architecture](Describe_Discharge_Agent.png)
+
+
+
+---
+
 ## 1. Agent Loop Design
 
 The core of this architecture is a custom ReAct (Reasoning and Action) execution loop designed to provide complete control over the model's trajectory under uncertainty. High-level frameworks (such as CrewAI or LangGraph) were explicitly avoided to ensure that every transition state, tool execution, and fallback path is fully deterministic and auditable.
