@@ -16,7 +16,7 @@ All generated discharge drafts and underlying step-by-step reasoning audit logs 
 * **Clinical Draft Summary:** [patient_1_discharge_summary.md](./traces/patient_1_discharge_summary.md)
 * **Execution Audit Log:** [patient_1_execution_trace.txt](./traces/patient_1_execution_trace.txt)
 
-#### Patient 2
+#### Patient 2 (Data that provided by the company)
 * **Clinical Draft Summary:** [patient_2_discharge_summary.md](./traces/patient_2_discharge_summary.md)
 * **Execution Audit Log:** [patient_2_execution_trace.txt](./traces/patient_2_execution_trace.txt)
 
