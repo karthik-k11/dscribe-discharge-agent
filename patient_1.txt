@@ -1,0 +1,77 @@
+--- PAGE 1 ---
+ST. JUDE MEDICAL CENTER - EMERGENCY DEPARTMENT & INPATIENT
+RECORDS
+PATIENT CASE FILE: SJ-992-041
+CONFIDENTIALITY NOTICE: SYNTHETIC DATA FOR SYSTEM TESTING
+[DOCUMENT 1: EMERGENCY DEPARTMENT ADMISSION NOTE]
+DATE OF ADMISSION: 2026-05-28
+ADMITTING PHYSICIAN: Dr. S. Rangan, MD (Internal Medicine)
+CHIEF COMPLAINT:
+72-year-old male presents with altered mental status, severe generalized weakness, productive cough with
+rust-colored sputum, and high-grade intermittent fever for the past 4 days.
+INITIAL DIAGNOSIS / IMPRESSION ON ADMISSION (PAGE 1):
+1. Severe Community-Acquired Pneumonia (CAP), Right Lower Lobe
+2. Suspected Urosepsis / Complicated Urinary Tract Infection (UTI)
+3. Dehydration with associated Prerenal Acute Kidney Injury (AKI)
+PAST MEDICAL HISTORY:
+- Long-standing Hypertension (HTN) x 15 years.
+Chronic Kidney Disease (CKD) Stage IIIa (Baseline Creatinine ~1.4 - 1.6 mg/dL).
+Type 2 Diabetes Mellitus (T2DM) managed with oral hypoglycemics.
+Dyslipidemia.
+HOME / HOMEWAY MEDICATIONS (PRE-ADMISSION):
+1. Tab. Lisinopril 20mg once daily (for Hypertension)
+2. Tab. Metformin 1000mg twice daily (for T2DM)
+3. Tab. Atorvastatin 40mg once daily (for Dyslipidemia)
+ACTIVE INPATIENT ICU/WARD MEDICATIONS INITIATED:
+- Inj. Ceftriaxone 2g IV every 24 hours
+Inj. Azithromycin 500mg IV every 24 hours
+Inj. Pantoprazole 40mg IV once daily
+Inj. Paracetamol 1g IV SOS for temp > 101°F
+Supplemental Oxygen via nasal cannula at 3L/min
+- IV Fluids: Normal Saline (0.9% NaCl) maintenance infusion at 80 mL/hr
+- Subcutaneous Sliding Scale Regular Insulin for glycemic control (Metformin held due to elevated Creatinine)
+[DOCUMENT 2: INTERNAL MEDICINE PROGRESS NOTES & SPECIALIST CONSULTS]
+DATE OF NOTES: 2026-05-30 to 2026-06-01
+ATTENDING: Dr. A. Vance, MD (Pulmonology) / Dr. K. Patel, MD (Nephrology)
+PULMONOLOGY PROGRESS NOTE (2026-05-30):
+Patient is showing gradual respiratory improvement. Cough is less productive, and oxygen saturation is stable
+
+--- PAGE 2 ---
+at 95% on room air. Chest X-ray confirms resolving consolidations in the right lower lobe. Will complete a 5-day
+course of IV antibiotics and transition to oral medications upon discharge.
+NEPHROLOGY CONSULTATION NOTE (2026-06-01):
+Renal function has stabilized. Initial admission Serum Creatinine was critically elevated at 2.45 mg/dL
+(consistent with AKI on CKD secondary to dehydration). Following volume resuscitation, Creatinine has trended
+down to 1.52 mg/dL (back to patient's baseline).
+*CRITICAL STRATEGY FOR DISCHARGE:* Advise absolute avoidance of all Nephrotoxic drugs, specifically
+non-steroidal anti-inflammatory drugs (NSAIDs), to prevent precipitating permanent renal shutdown. Lisinopril
+should be restarted carefully post-discharge under regular electrolyte tracking.
+[DOCUMENT 3: LABORATORY & RADIOLOGY REPORT ARCHIVE]
+HEMATOLOGY / BIOCHEMISTRY MATRIX:
+- Hb: 11.2 g/dL (Low)
+Total Leukocyte Count (TLC): 14,200 cells/cumm on admission -> Decreased to 7,800 cells/cumm on
+2026-06-02.
+Serum Creatinine: 2.45 (2026-05-28) -> 1.98 (2026-05-30) -> 1.52 (2026-06-02).
+Serum Potassium: 4.8 mmol/L.
+HbA1c: 8.4% (Indicates suboptimal long-term glycemic management).
+MICROBIOLOGY DETAILED LOGS:
+Sputum Culture: Positive for Streptococcus pneumoniae (Sensitive to Ceftriaxone).
+Urine Culture: No significant growth after 48 hours.
+Blood Culture & Sensitivity: Collected on 2026-05-29 from two separate peripheral sites. STATUS: PENDING
+IN MICROBIOLOGY LAB. RE-CHECK REQUIRED.
+[DOCUMENT 4: PHYSICIAN DISCHARGE ORDER AND PRESCRIPTION ADVICE]
+DATE OF DISCHARGE: 2026-06-03
+DISCHARGE SUMMARY OFFICER: Dr. J. Cross, MD
+FINAL DISCHARGE DIAGNOSIS (AS RECORDED ON EXIT FACE SHEET):
+Principal Diagnosis: Acute Gastroenteritis with Severe Dehydration.
+Secondary Diagnoses: Hypertension, Chronic Kidney Disease, Type 2 Diabetes Mellitus.
+DISCHARGE PROGNOSIS & CONDITION:
+Patient is alert, oriented x 3, afebrile, and clinically stable for discharge. Hemodynamics are preserved.
+DISCHARGE MEDICATION PRESCRIPTION ADVICE:
+1. TAB. CO-AMOXICLAV (Amoxicillin + Clavulanate) 625MG, 1 tab twice daily for 5 days.
+2. TAB. PANTOPRAZOLE 40MG, 1 tab once daily before breakfast for 10 days.
+3. TAB. ATORVASTATIN 40MG, 1 tab once daily at bedtime.
+4. TAB. IBUPROFEN 400MG, 1 tab three times daily as needed (SOS) for any residual body aches or chest
+wall pain.
+*SPECIAL DISCHARGE ORDERS:* Patient may resume normal diabetic diet. Follow up in outpatient clinic in 1
+week.
