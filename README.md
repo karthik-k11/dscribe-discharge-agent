@@ -22,8 +22,6 @@ All generated discharge drafts and underlying step-by-step reasoning audit logs 
 
 ---
 
----
-
 ![Project Architecture](Describe_Discharge_Agent.png)
 
 ---
@@ -132,7 +130,6 @@ pip install google-genai python-dotenv PyPDF2
 ### Configuration
 Create a file named `.env` in the root folder of the project and insert your API key:
 
-Code snippet
 ```bash
 GEMINI_API_KEY=your_actual_api_key_here
 ```
